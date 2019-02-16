@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class Link extends Component {
   render() {
     return (
       <div>
-        <div>
+        <li style={{ margin: "10px" }}>
           {this.props.link.description} ({this.props.link.url})
-        </div>
+        </li>
       </div>
-    )
+    );
   }
 }
 
-export default Link
+export default Link;
